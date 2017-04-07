@@ -1,4 +1,4 @@
-# FMST_kmeans
+# FMST
 Fast Minimum Spanning Tree based on k_means for Big-Data Analytics.
 -------------------
 
@@ -14,12 +14,13 @@ aMST_one:
 - Running an MST algorithm on each of the clusters formed forming subset MSTs for each cluster(2)
 - Making a separate MST(3) of the centroids of the clusters
 - On adjacent centroid MST edges of (3), joining the subset MSTs in (2) according to the closest point of the adjacent centroid MSTs
-<br/>aMST_two:
+<br/><br/>
+aMST_two:
 - Making clusters(a) considering centroids as - the midpoints of adjacent centorids MST edges of (3)
 - Running an MST algorithm on each of the clusters formed forming subset MSTs for each cluster(b)
 - Making a separate MST(c) of the centroids of the clusters
 - On adjacent centroid MST edges of (c), joining the subset MSTs in (b) according to the closest point of the adjacent centroid MSTs
-
+-------------------
 - Combine edges of aMST_one and aMST_two to form a graph
 - Run an MST algorithm on this graph
 
