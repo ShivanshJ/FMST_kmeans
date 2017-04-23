@@ -4,9 +4,7 @@ Fast Minimum Spanning Tree based on k_means for Big-Data Analytics.
 
 There are a number of algorithms that have been proposed in graph theory literature to compute the minimum spanning tree of a given graph.
 These include  the  famous Prim’s  and Kruskal’s  algorithm,  among  others.  The  main drawback of these algorithms is their greedy 
-nature, which means they cannot be applied to large datasets. In 2015, Zhong et al. proposed a fast MST (FMST) algorithm framework that 
-uses K-means to find the MST with a reduced complexity of O(N 1.5 ). This code is based on that paper.
-
+nature, which means they cannot be applied to large datasets. It uses K-means to find the MST with a reduced complexity of O(N 1.5 ).
 ***
 The steps of making the MST are as follows:<br/>
 aMST_one:
